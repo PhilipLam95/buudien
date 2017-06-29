@@ -1,0 +1,12 @@
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\bin\Release\BUUDIEN.exe.config
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\bin\Release\BUUDIEN.exe
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\bin\Release\BUUDIEN.pdb
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\obj\x86\Release\BUUDIEN.FrmChucNang.resources
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\obj\x86\Release\BUUDIEN.FrmDangNhap.resources
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\obj\x86\Release\BUUDIEN.PhieuGuiTien.resources
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\obj\x86\Release\BUUDIEN.PhieuRutTien.resources
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\obj\x86\Release\BUUDIEN.Properties.Resources.resources
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\obj\x86\Release\BUUDIEN.TaoGDV.resources
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\obj\x86\Release\BUUDIEN.csproj.GenerateResource.Cache
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\obj\x86\Release\BUUDIEN.exe
+C:\Users\DELLinspiron15-5000\Documents\Visual Studio 2010\Projects\BUUDIEN\BUUDIEN\obj\x86\Release\BUUDIEN.pdb

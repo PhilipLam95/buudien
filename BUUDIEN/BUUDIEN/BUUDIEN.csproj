@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{821D5E68-8226-4007-BE6F-C865E887970E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BUUDIEN</RootNamespace>
+    <AssemblyName>BUUDIEN</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Backup_Restore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Backup_Restore.Designer.cs">
+      <DependentUpon>Backup_Restore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capnhatdichvu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capnhatdichvu.Designer.cs">
+      <DependentUpon>Capnhatdichvu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBAccess.cs" />
+    <Compile Include="Doimatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doimatkhau.Designer.cs">
+      <DependentUpon>Doimatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChucNang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChucNang.Designer.cs">
+      <DependentUpon>FrmChucNang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDangNhap.Designer.cs">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuGuiTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuGuiTien.Designer.cs">
+      <DependentUpon>PhieuGuiTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuRutTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuRutTien.Designer.cs">
+      <DependentUpon>PhieuRutTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportDV.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ReportDV.Designer.cs">
+      <DependentUpon>ReportDV.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ReportPhieugui.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ReportPhieugui.Designer.cs">
+      <DependentUpon>ReportPhieugui.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ReportPhieuGuiquahan.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ReportPhieuGuiquahan.Designer.cs">
+      <DependentUpon>ReportPhieuGuiquahan.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TaoGDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaoGDV.Designer.cs">
+      <DependentUpon>TaoGDV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TKBUUDIENDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TKBUUDIENDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TKBUUDIENDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TKBUUDIENDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TKBUUDIENDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TKBUUDIENDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Backup_Restore.resx">
+      <DependentUpon>Backup_Restore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capnhatdichvu.resx">
+      <DependentUpon>Capnhatdichvu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doimatkhau.resx">
+      <DependentUpon>Doimatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChucNang.resx">
+      <DependentUpon>FrmChucNang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDangNhap.resx">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuGuiTien.resx">
+      <DependentUpon>PhieuGuiTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuRutTien.resx">
+      <DependentUpon>PhieuRutTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ReportDV.resx">
+      <DependentUpon>ReportDV.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPhieugui.resx">
+      <DependentUpon>ReportPhieugui.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPhieuGuiquahan.resx">
+      <DependentUpon>ReportPhieuGuiquahan.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaoGDV.resx">
+      <DependentUpon>TaoGDV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thongkedichvu.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thongkephieugui.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thongkephieuguiquahan.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thongketientrongthang.rdlc" />
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TKBUUDIENDataSet.xsc">
+      <DependentUpon>TKBUUDIENDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TKBUUDIENDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TKBUUDIENDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TKBUUDIENDataSet.xss">
+      <DependentUpon>TKBUUDIENDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TKBUUDIENDataSet1.xsc">
+      <DependentUpon>TKBUUDIENDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TKBUUDIENDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TKBUUDIENDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TKBUUDIENDataSet1.xss">
+      <DependentUpon>TKBUUDIENDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TKBUUDIENDataSet2.xsc">
+      <DependentUpon>TKBUUDIENDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TKBUUDIENDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TKBUUDIENDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TKBUUDIENDataSet2.xss">
+      <DependentUpon>TKBUUDIENDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
